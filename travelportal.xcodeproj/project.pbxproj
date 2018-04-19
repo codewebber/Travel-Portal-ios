@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779552862088738E00889F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 779552852088738E00889F1F /* main.m */; };
+		779552892088738E00889F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 779552882088738E00889F1F /* AppDelegate.m */; };
+		7795528C2088738E00889F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795528B2088738E00889F1F /* ViewController.m */; };
+		7795528F2088738E00889F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7795528D2088738E00889F1F /* Main.storyboard */; };
+		779552912088738E00889F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779552902088738E00889F1F /* Assets.xcassets */; };
+		779552942088738E00889F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779552922088738E00889F1F /* LaunchScreen.storyboard */; };
+		7795529F2088738E00889F1F /* travelportalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7795529E2088738E00889F1F /* travelportalTests.m */; };
+		779552AA2088738E00889F1F /* travelportalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779552A92088738E00889F1F /* travelportalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7795529B2088738E00889F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779552792088738E00889F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779552802088738E00889F1F;
+			remoteInfo = travelportal;
+		};
+		779552A62088738E00889F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 779552792088738E00889F1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 779552802088738E00889F1F;
+			remoteInfo = travelportal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		779552812088738E00889F1F /* travelportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		779552852088738E00889F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		779552872088738E00889F1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		779552882088738E00889F1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7795528A2088738E00889F1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7795528B2088738E00889F1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7795528E2088738E00889F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		779552902088738E00889F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		779552932088738E00889F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		779552952088738E00889F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7795529A2088738E00889F1F /* travelportalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelportalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7795529E2088738E00889F1F /* travelportalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travelportalTests.m; sourceTree = "<group>"; };
+		779552A02088738E00889F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779552A52088738E00889F1F /* travelportalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelportalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		779552A92088738E00889F1F /* travelportalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travelportalUITests.m; sourceTree = "<group>"; };
+		779552AB2088738E00889F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7795527E2088738E00889F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552972088738E00889F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552A22088738E00889F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		779552782088738E00889F1F = {
+			isa = PBXGroup;
+			children = (
+				779552832088738E00889F1F /* travelportal */,
+				7795529D2088738E00889F1F /* travelportalTests */,
+				779552A82088738E00889F1F /* travelportalUITests */,
+				779552822088738E00889F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		779552822088738E00889F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				779552812088738E00889F1F /* travelportal.app */,
+				7795529A2088738E00889F1F /* travelportalTests.xctest */,
+				779552A52088738E00889F1F /* travelportalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		779552832088738E00889F1F /* travelportal */ = {
+			isa = PBXGroup;
+			children = (
+				779552872088738E00889F1F /* AppDelegate.h */,
+				779552882088738E00889F1F /* AppDelegate.m */,
+				7795528A2088738E00889F1F /* ViewController.h */,
+				7795528B2088738E00889F1F /* ViewController.m */,
+				7795528D2088738E00889F1F /* Main.storyboard */,
+				779552902088738E00889F1F /* Assets.xcassets */,
+				779552922088738E00889F1F /* LaunchScreen.storyboard */,
+				779552952088738E00889F1F /* Info.plist */,
+				779552842088738E00889F1F /* Supporting Files */,
+			);
+			path = travelportal;
+			sourceTree = "<group>";
+		};
+		779552842088738E00889F1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				779552852088738E00889F1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7795529D2088738E00889F1F /* travelportalTests */ = {
+			isa = PBXGroup;
+			children = (
+				7795529E2088738E00889F1F /* travelportalTests.m */,
+				779552A02088738E00889F1F /* Info.plist */,
+			);
+			path = travelportalTests;
+			sourceTree = "<group>";
+		};
+		779552A82088738E00889F1F /* travelportalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				779552A92088738E00889F1F /* travelportalUITests.m */,
+				779552AB2088738E00889F1F /* Info.plist */,
+			);
+			path = travelportalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		779552802088738E00889F1F /* travelportal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779552AE2088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportal" */;
+			buildPhases = (
+				7795527D2088738E00889F1F /* Sources */,
+				7795527E2088738E00889F1F /* Frameworks */,
+				7795527F2088738E00889F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = travelportal;
+			productName = travelportal;
+			productReference = 779552812088738E00889F1F /* travelportal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		779552992088738E00889F1F /* travelportalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779552B12088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportalTests" */;
+			buildPhases = (
+				779552962088738E00889F1F /* Sources */,
+				779552972088738E00889F1F /* Frameworks */,
+				779552982088738E00889F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7795529C2088738E00889F1F /* PBXTargetDependency */,
+			);
+			name = travelportalTests;
+			productName = travelportalTests;
+			productReference = 7795529A2088738E00889F1F /* travelportalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		779552A42088738E00889F1F /* travelportalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779552B42088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportalUITests" */;
+			buildPhases = (
+				779552A12088738E00889F1F /* Sources */,
+				779552A22088738E00889F1F /* Frameworks */,
+				779552A32088738E00889F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				779552A72088738E00889F1F /* PBXTargetDependency */,
+			);
+			name = travelportalUITests;
+			productName = travelportalUITests;
+			productReference = 779552A52088738E00889F1F /* travelportalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		779552792088738E00889F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Carmatec;
+				TargetAttributes = {
+					779552802088738E00889F1F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					779552992088738E00889F1F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779552802088738E00889F1F;
+					};
+					779552A42088738E00889F1F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 779552802088738E00889F1F;
+					};
+				};
+			};
+			buildConfigurationList = 7795527C2088738E00889F1F /* Build configuration list for PBXProject "travelportal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 779552782088738E00889F1F;
+			productRefGroup = 779552822088738E00889F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				779552802088738E00889F1F /* travelportal */,
+				779552992088738E00889F1F /* travelportalTests */,
+				779552A42088738E00889F1F /* travelportalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7795527F2088738E00889F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779552942088738E00889F1F /* LaunchScreen.storyboard in Resources */,
+				779552912088738E00889F1F /* Assets.xcassets in Resources */,
+				7795528F2088738E00889F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552982088738E00889F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552A32088738E00889F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7795527D2088738E00889F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7795528C2088738E00889F1F /* ViewController.m in Sources */,
+				779552892088738E00889F1F /* AppDelegate.m in Sources */,
+				779552862088738E00889F1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552962088738E00889F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7795529F2088738E00889F1F /* travelportalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779552A12088738E00889F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779552AA2088738E00889F1F /* travelportalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7795529C2088738E00889F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779552802088738E00889F1F /* travelportal */;
+			targetProxy = 7795529B2088738E00889F1F /* PBXContainerItemProxy */;
+		};
+		779552A72088738E00889F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 779552802088738E00889F1F /* travelportal */;
+			targetProxy = 779552A62088738E00889F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7795528D2088738E00889F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7795528E2088738E00889F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		779552922088738E00889F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				779552932088738E00889F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		779552AC2088738E00889F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		779552AD2088738E00889F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		779552AF2088738E00889F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = travelportal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		779552B02088738E00889F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = travelportal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		779552B22088738E00889F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = travelportalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travelportal.app/travelportal";
+			};
+			name = Debug;
+		};
+		779552B32088738E00889F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = travelportalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travelportal.app/travelportal";
+			};
+			name = Release;
+		};
+		779552B52088738E00889F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = travelportalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = travelportal;
+			};
+			name = Debug;
+		};
+		779552B62088738E00889F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = travelportalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carma.travelportalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = travelportal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7795527C2088738E00889F1F /* Build configuration list for PBXProject "travelportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779552AC2088738E00889F1F /* Debug */,
+				779552AD2088738E00889F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779552AE2088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779552AF2088738E00889F1F /* Debug */,
+				779552B02088738E00889F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		779552B12088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779552B22088738E00889F1F /* Debug */,
+				779552B32088738E00889F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		779552B42088738E00889F1F /* Build configuration list for PBXNativeTarget "travelportalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				779552B52088738E00889F1F /* Debug */,
+				779552B62088738E00889F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 779552792088738E00889F1F /* Project object */;
+}
